@@ -1,1 +1,7 @@
 /* my own styles */
+
+/* space at the bottom so the footer does not cover the page */
+body
+{
+    padding-bottom: 80px;
+}

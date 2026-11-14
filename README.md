@@ -10,8 +10,8 @@ Krutarth Joshi portfolio website made with Express, EJS and Bootstrap
 - views/partials/header.ejs - top of every page, loads Bootstrap and Font Awesome
 - views/partials/main_nav.ejs - navigation bar
 - views/partials/footer.ejs - footer
-- public/Asset/images - photo and colour scheme image
-- public/Content - style sheets
+- public/Asset/images - photo for the about me page
+- public/Content/app.css - my own styles
 - public/Script/app.js - script that runs when a page loads
 
 ## Code Sources
