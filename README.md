@@ -10,8 +10,12 @@ Krutarth Joshi portfolio website made with Express, EJS and Bootstrap
 - views/partials/header.ejs - top of every page, loads Bootstrap and Font Awesome
 - views/partials/main_nav.ejs - navigation bar
 - views/partials/footer.ejs - footer
-- public/Asset/images - photo, video poster and colour scheme image
-- public/Asset/videos - video for the about me page
+- public/Asset/images - photo and colour scheme image
 - public/Content - style sheets
 - public/Script/app.js - script that runs when a page loads
 
+## Code Sources
+
+- Bootstrap: https://getbootstrap.com
+- Font Awesome: https://fontawesome.com
+- The pattern used for the cell number on the contact page, which makes the number follow the format 123-456-7890, is from MDN Web Docs, written by Mozilla: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/tel

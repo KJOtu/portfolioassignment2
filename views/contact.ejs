@@ -1,5 +1,35 @@
 <%- include partials/header.ejs %>
 <%- include partials/main_nav.ejs %>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <!--Main content-->
+<main class="container">
+    <div class="row">
+        <div class="offset-md-1 col-md-10">
+            <h1><%= title %></h1>
+            <h2>Contact Form</h2>
+            <!-- opens an email to me with the form details -->
+            <form action="mailto:krutarth.joshi1@ontariotechu.net"
+            method="post" enctype="text/plain" name="contact_form">
+                <p>
+                    <label for="name">Name :</label>
+                    <input type="text" id="name" name="name" size="32" placeholder="Enter your name" required>
+                </p>
+                <p>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" size="32" placeholder="Enter your email address" required>
+                </p>
+                <!-- phone number must be like 123-456-7890 (pattern from MDN Web Docs) -->
+                <p>
+                    <label for="cell">Cell No. :</label>
+                    <input type="tel" id="cell" name="cell" size="32" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </p>
+                <p>
+                    <label for="comments">Comments</label><br>
+                    <textarea id="comments" name="comments" cols="60" rows="6" required></textarea>
+                </p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+</main>
 <%- include partials/footer.ejs %>
