@@ -2,6 +2,8 @@
 
 Krutarth Joshi portfolio website made with Express, EJS and Bootstrap
 
+Live site: https://portfolioassignment2.onrender.com
+
 - server.js - starts the server
 - app.js - sets up Express, the EJS views and the public folder
 - routes/index.js - routes for each page
